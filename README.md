@@ -13,8 +13,6 @@
 [python-logo]: https://img.icons8.com/color/48/000000/python.png
 [python-url]: https://www.python.org
 
-<p align="right"><a href="#readme-top">back to top</a></p>
-
 ### Airflow Interface
 <img src="Airflow DAGs.png">
 
