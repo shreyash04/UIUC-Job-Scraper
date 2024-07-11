@@ -35,7 +35,6 @@ To resolve this issue, a new firewall rule named <code>allow-airflow-webserver</
 </ul>
 </ul>
 
-This configuration allowed the Airflow webserver to be accessed from port 8080
 _____
 ### Airflow Interface
 <img src="Airflow DAGs.png">
