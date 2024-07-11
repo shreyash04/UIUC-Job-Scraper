@@ -14,16 +14,27 @@
 [python-logo]: https://img.icons8.com/color/48/000000/python.png
 [python-url]: https://www.python.org
 
+<br>
 #### Google Compute Engine VM Instance Configuration
-
-
 <ul>
     <li>For this project, we utilized a GCP VM Spot Instance to host the local Airflow instance. The chosen configuration was a General Purpose e2-medium for cost-effectiveness.</li>
     <li>Initially, we attempted to leverage GCP's Cloud Composer, a managed orchestration tool and equivalent to Airflow. However, there were configuration challenges with Cloud Composer for economical Compute Engine instances, so we used a locally hosted Airflow instance.</li>
     <li>From instance configuration experiences, we recommend using at least an e2-medium machine to ensure smooth operation of Airflow. This configuration provides adequate computational resources to handle the orchestration tasks efficiently.</li>
 </ul>
 
+<br>
+#### Accessing the Airflow Webserver
+During the setup, the Airflow webserver was running correctly on the SSH instance of the GCP VM and was accessible via the terminal. However, the webserver was not accessible at port 8080 initially.
+To resolve this issue, a new firewall rule named <code>allow-airflow-webserver</code> was created with the following configuration:
+<ul>
+    <li><strong>Step 1:</strong> Navigate to the <strong>VPC Network</strong> section in GCP and select <strong>Firewall</strong>.</li>
+    <li><strong>Step 2:</strong> Create a new firewall rule with the following settings:
+    <li><img src="allow-airflow-webserver Firewall Rule.png" alt="Firewall Rule Configuration Screenshot" /></li>
+</ul>
 
+This configuration allowed the Airflow webserver to be accessed from port 8080.
+
+<br>
 ### Airflow Interface
 <img src="Airflow DAGs.png">
 
