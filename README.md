@@ -29,9 +29,9 @@ To resolve this issue, a new firewall rule named <code>allow-airflow-webserver</
 <ul>
     <li><strong>Step 1:</strong> Navigate to the <strong>VPC Network</strong> section in GCP and select <strong>Firewall</strong>.</li>
     <li><strong>Step 2:</strong> Create a new firewall rule with the following settings:
-    <li><img src="allow-airflow-webserver Firewall Rule.png" alt="Firewall Rule Configuration" style="width: 75%; height: auto;" /></li>
+    <img src="allow-airflow-webserver Firewall Rule.png" alt="Firewall Rule Configuration" style="width: 75%; height: auto;" />
     <li><strong>Step 3:</strong> Add the firewall rule to the network tags of your instance.</li>
-    <li><img src="adding-firewall-rule.png" alt="Network Tags Configuration" style="width: 75%; height: auto;" /></li>
+    <img src="adding-firewall-rule.png" alt="Network Tags Configuration" style="width: 75%; height: auto;" />
 </ul>
 </ul>
 
