@@ -24,6 +24,16 @@ _____
 </ul>
 
 _____
+### Setting up the MongoDB Database Backend and Integrating it with Airflow
+<img src="/images/MongoDB Database.png">
+<img src="/images/Airflow Connections main.png">
+<img src="/images/Airflow Connections.png">
+<img src="/images/Airflow Variables.png">
+
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+_____
 #### Accessing the Airflow Webserver
 During the setup, the Airflow webserver was running correctly on the SSH instance of the GCP VM and was accessible via the terminal. However, the webserver was not accessible at port 8080 initially.
 To resolve this issue, a new firewall rule named <code>allow-airflow-webserver</code> was created with the following configuration:
@@ -47,11 +57,5 @@ _____
 _____
 ### DAGs Orchestration Graph
 <img src="/images/DAGs Orchestration Graph.png">
-
-_____
-### MongoDB Database Backend
-<img src="/images/MongoDB Database.png">
-
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 
