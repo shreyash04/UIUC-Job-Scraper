@@ -4,10 +4,11 @@
 
 ### Built With
 [![Google Cloud][gcp-logo]][gcp-url]
-<a href="https://airflow.apache.org/" style="text-decoration: none; margin-right: 10px;"><img src="https://github.com/apache/airflow/blob/main/airflow/www/static/pin_100.png?raw=true" alt="Airflow" style="height: 46px;"></a>
+<a href="https://github.com/features/codespaces" style="text-decoration: none; margin-right: 20px;"><img src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.17.2/1721326959295/Microsoft.VisualStudio.Services.Icons.Default" alt="GitHub Codespaces" style="height: 46px;"></a>
+<a href="https://airflow.apache.org/" style="text-decoration: none; margin-right: 20px;"><img src="https://github.com/apache/airflow/blob/main/airflow/www/static/pin_100.png?raw=true" alt="Airflow" style="height: 46px;"></a>
 <a href="https://www.mongodb.com/products/platform/atlas-database"><img src="https://flowygo.com/wp-content/uploads/2020/12/mongodb-atlas-1024x338.png" alt="MongoDB" style="height: 68px;"></a>
 [![Python][python-logo]][python-url]
-<a href="https://beautiful-soup-4.readthedocs.io/"><img src="https://editor.analyticsvidhya.com/uploads/82659bs4.PNG" alt="BeutifulSoup" style="height: 48px;"></a>
+<a href="https://beautiful-soup-4.readthedocs.io/"><img src="https://editor.analyticsvidhya.com/uploads/82659bs4.PNG" alt="BeautifulSoup" style="height: 48px;"></a>
 
 [gcp-logo]:https://img.icons8.com/color/48/google-cloud.png
 [gcp-url]: https://cloud.google.com/
@@ -29,27 +30,27 @@ To resolve this issue, a new firewall rule named <code>allow-airflow-webserver</
 <ul>
     <li><strong>Step 1:</strong> Navigate to the <strong>VPC Network</strong> section in GCP and select <strong>Firewall</strong>.</li>
     <li><strong>Step 2:</strong> Create a new firewall rule with the following settings:
-    <img src="allow-airflow-webserver Firewall Rule.png" alt="Firewall Rule Configuration" style="width: 75%; height: auto;" />
+    <img src="/images/allow-airflow-webserver Firewall Rule.png" alt="Firewall Rule Configuration" style="width: 75%; height: auto;" />
     <li><strong>Step 3:</strong> Add the firewall rule to the network tags of your instance.</li>
-    <img src="adding-firewall-rule.png" alt="Network Tags Configuration" style="width: 75%; height: auto;" />
+    <img src="/images/adding-firewall-rule.png" alt="Network Tags Configuration" style="width: 75%; height: auto;" />
 </ul>
 </ul>
 
 _____
 ### Airflow Interface
-<img src="Airflow DAGs.png">
+<img src="/images/Airflow DAGs.png">
 
 _____
 ### 
-<img src="dag-import-error.png">
+<img src="/images/dag-import-error.png">
 
 _____
 ### DAGs Orchestration Graph
-<img src="DAGs Orchestration Graph.png">
+<img src="/images/DAGs Orchestration Graph.png">
 
 _____
 ### MongoDB Database Backend
-<img src="MongoDB Database.png">
+<img src="/images/MongoDB Database.png">
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
