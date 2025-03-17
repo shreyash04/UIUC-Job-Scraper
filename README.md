@@ -5,7 +5,7 @@
 ### Built With
 [![Google Cloud][gcp-logo]][gcp-url]
 <a href="https://github.com/features/codespaces" style="text-decoration: none; margin-right: 20px;"><img src="https://github.gallerycdn.vsassets.io/extensions/github/codespaces/1.17.2/1721326959295/Microsoft.VisualStudio.Services.Icons.Default" alt="GitHub Codespaces" style="height: 46px;"></a>
-<a href="https://airflow.apache.org/" style="text-decoration: none; margin-right: 20px;"><img src="https://github.com/apache/airflow/blob/main/airflow/www/static/pin_100.png?raw=true" alt="Airflow" style="height: 46px;"></a>
+<a href="https://airflow.apache.org/" style="text-decoration: none; margin-right: 20px;"><img src="https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_white_bg.png?api=v2" alt="Airflow" style="height: 46px;"></a>
 <a href="https://www.mongodb.com/products/platform/atlas-database"><img src="https://flowygo.com/wp-content/uploads/2020/12/mongodb-atlas-1024x338.png" alt="MongoDB" style="height: 68px;"></a>
 [![Python][python-logo]][python-url]
 <a href="https://beautiful-soup-4.readthedocs.io/"><img src="https://editor.analyticsvidhya.com/uploads/82659bs4.PNG" alt="BeautifulSoup" style="height: 48px;"></a>
